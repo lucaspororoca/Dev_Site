@@ -2,9 +2,19 @@ body {
     background-color: #afffde;
 }
 
-h2 {
+#h2-type-1 {
     font-size: 25px;
     color: rgb(164, 255, 225);;
+}
+
+#h2-type-2 {
+    font-size: 25px;
+    color: rgb(255, 216, 164);;
+}
+
+#div-1 {
+    display: flex;
+    align-items: normal;
 }
 
 #div-2 {
@@ -28,6 +38,17 @@ h2 {
     max-height: 70px;
 }
 
+#div-4 {
+    background-color: rgb(155, 102, 67);
+    display: flex;
+    align-items: normal;
+    min-height: 300px;
+    min-width: 150px;
+    max-width: 200px;
+    max-height: 350px;
+    padding: 50px;
+}
+
 #button-type-1 {
     margin-top: 15px;
     min-width: 176px;
@@ -38,6 +59,7 @@ h2 {
     background-color: rgb(110, 255, 219);
     color: rgb(37, 153, 124);
     font-weight: bold;
+    border: none;
 }
 
 #button-type-1:hover {
@@ -50,11 +72,47 @@ h2 {
     background-color: rgb(7, 59, 46);
     color: rgb(206, 255, 243);
     font-weight: bold;
+    border: none;
+}
+
+#button-type-2 {
+    margin-top: 15px;
+    min-width: 176px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 75px;
+    border-radius: 7px;
+    background-color: rgb(238, 169, 104);
+    color: rgb(255, 231, 204);
+    font-weight: bold;
+    border: none;
+}
+
+#button-type-2:hover {
+    margin-top: 15px;
+    min-width: 176px;
+    min-height: 50px;
+    max-width: 200px;
+    max-height: 75px;
+    border-radius: 7px;
+    background-color: rgb(78, 39, 3);
+    color: rgb(255, 164, 128);
+    font-weight: bold;
+    border: none;
 }
 
 .class-font-type-1 {
     font-size: 18px;
     color: rgb(164, 255, 225);
+    height: 50%;
+    width: 25%;
+    max-width: 50%;
+    max-height: 75%;
+}
+
+.class-font-type-2 {
+    font-size: 18px;
+    color: rgb(255, 197, 131);
     height: 50%;
     width: 25%;
     max-width: 50%;
